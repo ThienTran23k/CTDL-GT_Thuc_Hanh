@@ -1,0 +1,9 @@
+#Hàm tính tổng các số chẵn trong mảng bằng đệ quy
+Int TongChanMang ( int a[MAX] , int n)
+{
+   if ( n == 0)
+    	return 0; 
+   if ( a[n] % 2 == 0)
+      return Tong(a, n-1) + a[n];
+   return Tong(a, n-1) + 0;
+}
