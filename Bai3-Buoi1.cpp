@@ -1,8 +1,8 @@
-// Viet hàm tính so hang thu n cua hai dãy sau:
+// Viet hÃ m tÃ­nh so hang thu n cua hai dÃ£y sau:
 //      X(0) = 1
 //      Y(0) = 0
-//      X(n) = x(n – 1) + y(n – 1) (n > 0)
-//     Y(n) = 3 * x(n – 1) + 2 * y(n – 1) (n > 0) 
+//      X(n) = x(n â€“ 1) + y(n â€“ 1) (n > 0)
+//     Y(n) = 3 * x(n â€“ 1) + 2 * y(n â€“ 1) (n > 0) 
 
 #include <iostream>
 using namespace std;
